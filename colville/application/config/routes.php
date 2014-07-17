@@ -40,7 +40,10 @@
 
 $route['default_controller'] = 'pages/view';
 $route['404_override'] = '';
+
 $route['(:any)'] = 'pages/view/$1';
+
+//$route['login'] = 'pages/login'
 
 
 /* End of file routes.php */
