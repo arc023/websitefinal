@@ -1,7 +1,7 @@
 
 
-<h2>FAQ page</h2>
-
+<div class = 'headertitle'><h2>FAQ page</h2>
+</div>
 <div ng-controller="Accordion">
   <accordion close-others="oneAtATime">
     

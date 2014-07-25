@@ -38,10 +38,28 @@
 |
 */
 
-$route['default_controller'] = 'pages/view';
+$route['default_controller'] = 'main';
 $route['404_override'] = '';
+$route['login'] = 'main/login';
+$route['council'] = 'main/council';
+$route['resolutions'] = 'main/resolutions';
+$route['notices'] = 'main/notices';
+$route['bids'] = 'main/bids';
+$route['business'] = 'main/business';
+$route['code'] = 'main/code';
+$route['department'] = 'main/department';
+$route['events'] = 'main/events';
+$route['faq'] = 'main/faq';
+$route['history'] = 'main/history';
+$route['job'] = 'main/job';
+$route['link'] = 'main/links';
+$route['meeting'] = 'main/meeting';
+$route['minutes'] = 'main/minutes';
+$route['ordinances'] = 'main/ordinances';
+$route['permits'] = 'main/permits';
 
-$route['(:any)'] = 'pages/view/$1';
+$route['admin'] = 'admin/index';
+//
 
 //$route['login'] = 'pages/login'
 

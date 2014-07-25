@@ -1,1 +1,1 @@
-<h2>departments</h2>
+<div class = 'headertitle'><h2>departments</h2></div>

@@ -8,6 +8,11 @@
  * Designed and built with all the love in the world by @mdo and @fat.
  */
  
+ .headertitle{
+ text-align: center;
+ 
+ 
+ }
  
  .container {
  padding:2px;
@@ -16,6 +21,7 @@
  height: 200px;
  float: left;
 }
+
 
 /* resize images */
  
@@ -52,11 +58,17 @@
 	} 
  
 nav{
- 	width:1120px;
-	
+ 	
 	font-family:"Century Gothic", "HelveticaNeueLT Pro 45 Lt", sans-serif; 
-	float: left; 
+	 
 }
+
+nav ul {
+	padding: 0;
+	float: right;
+}
+
+
 nav li { 
 	list-style: none; 
 	float: right; 
@@ -114,6 +126,8 @@ img.displayed {
  header {
  height: 60px;
  min-width:800px;
+ width: 100%;
+ background-color: #6689ab;
  }
  
  body{

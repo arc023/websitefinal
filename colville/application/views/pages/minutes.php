@@ -1,1 +1,1 @@
-<h2>minutes</h2>
+<div class = 'headertitle'><h2>minutes</h2></div>
